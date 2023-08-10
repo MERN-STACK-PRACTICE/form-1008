@@ -12,12 +12,12 @@ body {
 }
 
 form {
+    margin: 50px;
     padding: 40px;
     background-color: #d5def5;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Set the form width to 400px */
-    /* max-width: 400px; */ /* You can remove this line */
+    width: 400px; 
 }
 
 .form-input {
@@ -41,14 +41,13 @@ form {
 }
 .form-input label{
     margin: 0px;
-    display: flex;
-            flex-direction: column;
-            font-weight: bolder;
+   
+    flex-direction: column;
+    font-weight: bolder;
 }
 .form-input input {
-    border: 1px solid #000000;
-    background-color: #6643b5;
-    width: 400px;
-    height: 18px;
-    color: antiquewhite;
+  
+    display:inline-flex;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
 }
