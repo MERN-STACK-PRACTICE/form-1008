@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-box">
+            <h1>Student Enrollment</h1>
+            <div class="form-input">
+                <section class="main">
+                <label for ="firstname">
+                    First Name:
+                </label>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div class="form-input">
+                <label for ="lastname">
+                    Last Name:
+                </label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="form-input">
+                <label for ="regNo">
+                    Register Number:
+                </label>
+                <input type="text" id="regNo" name="regNo">
+            </div>
+            <div class="form-input">
+                <label for ="mobileNo">
+                    Mobile Number:
+                </label>
+                <input type="number" id="mobileNo" name="mobileNo">
+            </div>
+        </section>
+            <div class="form-input">
+                <label for ="firstname">
+                    Gender:
+                </label>
+                <input style="display: inline;" type="radio" id="Male" name="gender">Male</input>
+                <input style="display: inline;" type="radio" id="Female" name="gender">Female</input>
+            </div>
+
+            <div class="form-input">
+                <label for ="email">
+                    Email ID:
+                </label>
+                <input type="email" id="email" name="email" placeholder="Enter Email Id">
+            </div>
+
+            <div class="form-input">
+                <label for ="dept">
+                    Department
+                </label>
+                <select class="dropdown">
+                    <option>Agricultural Engineering</option>
+                    <option>Artificial Intelligence & Data Science</option>
+                    <option>Artificial Intelligence & Machine Learning</option>
+                    <option>Biomedical Engineering</option>
+                    <option>Computer Science Engineering</option>
+                    <option>Information Technology</option>
+                    <option>Cyber Secuity & IOT</option>
+                    <option>Electronics & Communication Engineering</option>
+                    <option>Electronics & Electrical Engineering</option>
+                </select>
+            </div>
+            <div class="form-input">
+                <label for ="year">
+                    Year of Study:
+                </label>
+                <input type="radio" id="firstYear" name="firstYear">I - year</input>
+                <input type="radio" id="firstYear" name="firstYear">II - Year</input>
+                <input type="radio" id="firstYear" name="firstYear">III - Year</input>
+                <input type="radio" id="firstYear" name="firstYear">IV - Year</input>
+            </div>
+            
+            <div class="form-input">
+                <label for ="languages">
+                    Programming Languages Known:
+                </label>
+                <ul>
+                <input type="checkbox" value="C"> C
+                <input type="checkbox" value="C"> C++
+                <input type="checkbox" value="C"> Python
+                <input type="checkbox" value="C"> Java
+            </ul>
+            </div>
+
+            
+
+<div class="form-input">
+            <label>Select available slots:</label>
+            <label>
+                <input type="checkbox" name="slots" value="10am">
+                10am
+            </label>
+            <label>
+                <input type="checkbox" name="slots" value="2pm">
+                2pm
+            </label>
+            <label>
+                <input type="checkbox" name="slots" value="5pm">
+                5pm
+            </label>
+            </div>
+            <div class="form-input">
+                <label for="resume">Upload your resume (PDF only):</label>
+                <input type="file" name="resume" accept=".pdf">
+                <a href="mailto:lathikasunder@gmail.com?subject=Resume Submission&body=Please find attached my resume." target="_blank">
+                    <input type="button" value="Submit PDF">
+                </a>
+            </div>
+
+
+            <div class="btn">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
